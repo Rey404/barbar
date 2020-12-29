@@ -1,18 +1,18 @@
 const help = (prefix) => {
-	return `> *Sticker Commands* <
-command : *${prefix}sticker* or *${prefix}stiker*
-desc : convert image/gif/video to sticker
-usage : reply image/gif/video, or send image/gif/video with caption\n
-command : *${prefix}sticker nobg* or *${prefix}stiker nobg*
-desc : convert image to sticker while removing the background
-usage : reply image, or send image with caption\n
+	return `> *Menu stiker* <
+perintah : *${prefix}sticker* or *${prefix}stiker*
+fungsi : convert gambar/gif/video ke sticker
+caranya : balas atau tag gambar/gif/video, atau kirim gambar/gif/video dengan caption\n
+perintah : *${prefix}sticker nobg* or *${prefix}stiker nobg*
+fungsi : convert image to sticker while removing the background
+caranya : balas atau tag gambar, atau kirim gambar dengan caption\n
 command : *${prefix}toimg*
 desc : convert sticker to image
 usage : reply sticker\n
 command : *${prefix}tsticker* or *${prefix}tstiker*
 desc : convert text to sticker
 usage : *${prefix}tsticker text in here*\n
-> *Meme Commands* <
+> *Menu Meme* <
 command : *${prefix}meme*
 desc : random meme images [english]
 usage : just send the command\n
