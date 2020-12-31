@@ -482,8 +482,8 @@ async function starts() {
 					reply('Sukses delete all chat :)')
 					break
 				case 'bc':
-					if (!isOwner) return reply('Kamu siapa?')
-					if (args.length < 1) return reply('.......')
+					if (!isOwner) return reply('Kamu siapa? wa.me/6289677763976 itu owner ku Tod!!')
+					if (args.length < 1) return reply('iya ownerku, mau diisi text apa? wa.me/6289677763976')
 					anu = await client.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
@@ -494,7 +494,7 @@ async function starts() {
 						reply('Suksess broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ Ini Broadcast ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ REY BROADCAST ]\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
